@@ -28,7 +28,7 @@ This project is particularly useful for universities and educational institution
 
 ## Project Report and Plagiarism Proof 📄
 
-The **FYP_III Report.pdf** located in the folder `Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/` contains the final project documentation. This report provides a **comprehensive overview** of the chatbot system, covering all aspects of design, development, and evaluation. Additionally, it has been verified to maintain a plagiarism level below **10%**, ensuring originality and adherence to academic integrity standards.
+I can show you with the FYP_III Report.pdf comprising around 100 pages, which contains the final project documentation on demand. This report offers a comprehensive overview of the chatbot system, covering all aspects of design, development, and evaluation. Additionally, it has been verified to maintain a plagiarism level below 10%, ensuring originality and adherence to academic integrity standards.
 
 ### Key Aspects Covered in the Report:
 - **Project Overview**: Purpose, objectives, and significance of the chatbot.
