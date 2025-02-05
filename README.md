@@ -25,6 +25,28 @@ The chatbot is built using Rasa, an open-source machine learning framework for b
 
 This project is particularly useful for universities and educational institutions aiming to automate and enhance their admission inquiry process.
 
+## Project Report and Plagiarism Proof
+
+The **FYP_III Report.pdf** located in the folder `Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/` contains the final project documentation. This report provides a **comprehensive overview** of the chatbot system, covering all aspects of design, development, and evaluation. Additionally, it has been verified to maintain a plagiarism level below **10%**, ensuring originality and adherence to academic integrity standards.
+
+### Key Aspects Covered in the Report:
+- **Project Overview**: Purpose, objectives, and significance of the chatbot.
+- **Technologies Used**: Implementation using **Rasa**, **NLU**, **Python**, and **Machine Learning**.
+- **System Architecture**: Detailed explanation of backend processing and API integration.
+- **Database & Knowledge Base**: Structure and management of university-related FAQs.
+- **User Interaction & Response Handling**: NLP-based conversation flow and accuracy.
+- **Testing & Evaluation**: Performance analysis and chatbot efficiency metrics.
+- **Deployment Strategy**: Hosting, scalability, and integration into university systems.
+- **Plagiarism Proof**: Ensuring originality with compliance below 10%.
+
+### Screenshots
+
+To provide visual evidence of the chatbot's functionality and interface, relevant screenshots have been included in the `screenshosts` folder:  
+`Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/screenshosts/`.  
+These images demonstrate key features such as chatbot interactions, response accuracy, and system performance.
+
+By maintaining structured documentation and plagiarism compliance, this project ensures transparency and credibility in its development process.
+
 ## Installation
 To set up the chatbot, install the necessary dependencies:
 ```bash
