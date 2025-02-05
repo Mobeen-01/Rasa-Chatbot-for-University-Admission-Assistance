@@ -85,7 +85,7 @@ ngrok http 5005
 
 ### Download ngrok
 Make sure ngrok is installed. You can download it for Windows from the following link:
-[Download ngrok for Windows](https://ngrok.com/download)
+[Download ngrok for Windows]([https://ngrok.com/download](https://ngrok.com/downloads/windows?tab=download))
 
 Then, configure your Facebook and Slack channels accordingly.
 
