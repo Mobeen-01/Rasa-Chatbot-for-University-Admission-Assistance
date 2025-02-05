@@ -1,0 +1,387 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: scholarships
+  steps:
+  - intent: scholarship
+  - action: utter_scholar
+
+- story: graduation time
+  steps:
+  - intent: graduation
+  - action: utter_graduate
+
+
+- story: summer warnings
+  steps:
+  - intent: summer_warning
+  - action: utter_summer
+
+- story: admission schedules
+  steps:
+  - intent: admission_schedule
+  - action: utter_schedule
+
+- story: summer courses
+  steps:
+  - intent: summer_courses
+  - action: utter_summer_courses
+
+- story: why Air University
+  steps:
+  - intent: AU
+  - action: utter_AU
+
+- story: job rate at Air University
+  steps:
+  - intent: job_rate
+  - action: utter_job
+
+- story: social eventsat Air University
+  steps:
+  - intent: social_events
+  - action: utter_events
+
+- story: past papers
+  steps:
+  - intent: past_papers
+  - action: utter_sample
+
+- story: eligibility criteria
+  steps:
+  - intent: admission
+  - action: utter_recruit
+
+- story: A eligibility criteria
+  steps:
+  - intent: admission2
+  - action: utter_admins
+
+- story: NTS
+  steps:
+  - intent: NTS
+  - action: utter_nts
+
+- story: NAT
+  steps:
+  - intent: NAT
+  - action: utter_nat
+
+- story: tests conducted
+  steps:
+  - intent: tests_conducted
+  - action: utter_tests
+
+- story: apply
+  steps:
+  - intent: apply
+  - action: utter_apply
+
+- story: fee structure
+  steps:
+  - intent: fee_structure
+  - action: utter_fee
+
+- story: offered programs
+  steps:
+  - intent: offered_programs
+  - action: utter_programs
+
+- story: hostel
+  steps:
+  - intent: hostel
+  - action: utter_hostel
+
+- story: test pattern
+  steps:
+  - intent: test_pattern
+  - action: utter_pattern
+
+- story: negative marking
+  steps:
+  - intent: negative_marking
+  - action: utter_negative
+
+- story: evening classes
+  steps:
+  - intent: evening_classes
+  - action: utter_evening
+
+- story: sports seats
+  steps:
+  - intent: sports_seats
+  - action: utter_sports
+
+
+- story: self finance
+  steps:
+  - intent: self_finance
+  - action: utter_self
+
+
+- story: domicile
+  steps:
+  - intent: domicile
+  - action: utter_domicile
+
+- story: aggregate
+  steps:
+  - intent: aggregate
+  - action: utter_aggregate
+
+- story: academic period
+  steps:
+  - intent: academic_period
+  - action: utter_period
+
+- story: Warning
+  steps:
+  - intent: Warning
+  - action: utter_Warning
+
+
+- story: Fyp Registration
+  steps:
+  - intent: Fyp_Registration
+  - action: utter_fyp
+
+
+- story: Transfer
+  steps:
+  - intent: Transfer
+  - action: utter_Transfer
+
+
+- story: GPA W
+  steps:
+  - intent: GPA_W
+  - action: utter_gpaw
+
+- story: GPA I
+  steps:
+  - intent: GPA_I
+  - action: utter_gpai
+
+- story: GPA
+  steps:
+  - intent: GPA
+  - action: utter_gpa
+
+- story: credit hour
+  steps:
+  - intent: credit_hour
+  - action: utter_credit
+
+- story: classes
+  steps:
+  - intent: classes
+  - action: utter_class
+
+- story: Admission of former
+  steps:
+  - intent: Admission_of_former
+  - action: utter_former
+
+- story: awaited admission
+  steps:
+  - intent: awaited_admission
+  - action: utter_awaited
+
+- story: semester week
+  steps:
+  - intent: semester_week
+  - action: utter_semester
+
+- story: summer campus
+  steps:
+  - intent: summer_campus
+  - action: utter_campus
+
+- story: summer withdraw
+  steps:
+  - intent: summer_withdraw
+  - action: utter_sum
+
+- story: new summer
+  steps:
+  - intent: new_summer
+  - action: utter_new
+
+- story: improve gpa
+  steps:
+  - intent: improve_gpa
+  - action: utter_improve
+
+- story: freezing semester
+  steps:
+  - intent: freezing_semester
+  - action: utter_freezing
+
+- story: Rechecking paper
+  steps:
+  - intent: Rechecking_paper
+  - action: utter_Rechecking
+
+- story: degree duration
+  steps:
+  - intent: degree_duration
+  - action: utter_degree
+
+- story: spring admission
+  steps:
+  - intent: spring_admission
+  - action: utter_spring
+
+- story: withdraw course
+  steps:
+  - intent: withdraw_course
+  - action: utter_withdraw
+
+- story: medals
+  steps:
+  - intent: medals
+  - action: utter_medal
+
+
+- story: career office
+  steps:
+  - intent: career_office
+  - action: utter_career
+
+- story: deen
+  steps:
+  - intent: deen
+  - action: utter_deen
+
+
+- story: headquarter
+  steps:
+  - intent: headquarter
+  - action: utter_headquarter
+
+
+- story: AU Kamra address
+  steps:
+  - intent: AU_Kamra_address
+  - action: utter_Kamra
+
+- story: AU Multan address
+  steps:
+  - intent: AU_Mul_address
+  - action: utter_Mul
+
+- story: AU peshawar address
+  steps:
+  - intent: AU_pesh_address
+  - action: utter_pesh
+
+
+- story: AU faislabad address
+  steps:
+  - intent: AU_fsd_address
+  - action: utter_fsd
+
+
+- story: AU islamabad address
+  steps:
+  - intent: AU_isb_address
+  - action: utter_isb
+
+
+- story: library
+  steps:
+  - intent: library
+  - action: utter_library
+
+
+
+- story: cafeteria
+  steps:
+  - intent: cafeteria
+  - action: utter_cafeteria
+
+
+- story: mosque
+  steps:
+  - intent: mosque
+  - action: utter_mosque
+
+
+- story: auditorium
+  steps:
+  - intent: auditorium
+  - action: utter_auditorium
+
+- story: bast campus
+  steps:
+  - intent: best_campus
+  - action: utter_bestcampus
+
+
+- story: academic office
+  steps:
+  - intent: academic_office
+  - action: utter_academic
+
+- story: admin office
+  steps:
+  - intent: admin_office
+  - action: utter_admin
+
+- story: student affair office
+  steps:
+  - intent: students_affair
+  - action: utter_students
+
+- story: hod office
+  steps:
+  - intent: hod_office
+  - action: utter_hod
+
+- story: director office
+  steps:
+  - intent: director_office
+  - action: utter_director
+
+- story: contacts
+  steps:
+  - intent: contacts
+  - action: utter_contacts
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

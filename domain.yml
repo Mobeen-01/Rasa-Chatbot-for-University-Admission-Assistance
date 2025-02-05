@@ -1,0 +1,302 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - scholarship
+  - summer_warning
+  - admission_schedule
+  - past_papers
+  - admission
+  - admission2
+  - NTS
+  - AU
+  - job_rate
+  - NAT
+  - social_events
+  - tests_conducted
+  - apply
+  - fee_structure
+  - offered_programs
+  - hostel
+  - test_pattern
+  - negative_marking
+  - evening_classes
+  - sports_seats
+  - self_finance
+  - domicile
+  - aggregate
+  - academic_period
+  - Warning
+  - Fyp_Registration
+  - Transfer
+  - GPA_W
+  - GPA_I
+  - GPA
+  - credit_hour
+  - classes
+  - Admission_of_former
+  - awaited_admission
+  - semester_week
+  - summer_campus
+  - summer_withdraw
+  - new_summer
+  - improve_gpa
+  - freezing_semester
+  - Rechecking_paper
+  - degree_duration
+  - spring_admission
+  - withdraw_course
+  - medals
+  - out_of_scope
+  - summer_courses
+  - career_office
+  - deen
+  - headquarter
+  - AU_Kamra_address
+  - AU_Mul_address
+  - AU_pesh_address
+  - AU_fsd_address
+  - library
+  - cafeteria
+  - mosque
+  - auditorium
+  - best_campus
+  - academic_office
+  - admin_office
+  - students_affair
+  - hod_office
+  - director_office
+  - contacts
+  - AU_isb_address
+  - graduation
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_scholar:
+  - text: "yes scholarship/Financial Aid/Study loan are available at Air University. Visit to learn about them at: https://www.au.edu.pk/pages/admission/Scholarship.aspx"
+  - text: "YES, Scholarships/Financial Aid/Study loan are available at Air University. Visit to learn about them at: https://www.au.edu.pk/pages/admission/Scholarship.aspx"
+  utter_summer:
+  - text: "YES, warning does increment and decrement in summer semester."
+
+  utter_schedule:
+  - text: " Admission are opened once in a year in May/June/July/August. To see the admission schedule and test dates please visit this link  https://www.au.edu.pk/pages/admission/admission_schedule.aspx"
+
+  utter_sample:
+  - text: "You can get an idea from the past papers.For Marks distribution visit this link https://www.au.edu.pk/pages/admission/prepare_adm_test.aspx"
+
+  utter_recruit:
+  - text: "Minimum criteria to apply is 60%. Furthur eligibility criteria could be reffered at https://www.au.edu.pk/pages/admission/prepare_adm_test.aspx"
+
+  utter_admins:
+  - text: "Minimum criteria for A-levels students to apply is 60%(Equivalance). Furthur eligibility criteria could be reffered at https://www.au.edu.pk/pages/admission/prepare_adm_test.aspx"
+
+  utter_nts:
+  - text: "NTS tests are accepted. See test months for NTS at https://ntsresults.pk/national-aptitude-test-nts-nat-test-schedule/"
+
+  utter_nat:
+  - text: "NAT test is conducted by Air University at Air University. To get information about NAT visit https://www.au.edu.pk/pages/admission/prepare_adm_test.aspx"
+
+  utter_tests:
+  - text: "Air University accepts NAT(NU test)/SAT/NTS."
+
+  utter_apply:
+  - text: "To apply at Air University follow link https://www.au.edu.pk/pages/admission/how_to_apply.aspx"
+
+  utter_fee:
+  - text: "Fee structure can be viewed at https://www.au.edu.pk/pages/admission/fees_financial.aspx"
+
+  utter_programs:
+  - text: "BS,MS,PHD Degrres are offered at Air University. Detailed programs can be viewed at https://www.au.edu.pk/pages/Faculties/Engineering/Departments/Electrical/dept_electrical_eng_programsofferd.aspx"
+
+  utter_hostel:
+  - text: "No on campus hostel is available at any campus except for Multan. But you could avail services of Student's affair office in finding a few near campus."
+
+  utter_pattern:
+  - text: "English,Maths,IQ and physics are included in NU test. For detailed weightage visit: https://www.au.edu.pk/pages/admission/prepare_adm_test.aspx"
+
+  utter_negative:
+  - text: "Yes, There will be negative marking in NAT(NU test)."
+
+  utter_evening:
+  - text: "No evening classes are offered at Air University."
+
+  utter_sports:
+  - text: "No sports seats are available at Air University."
+
+  utter_self:
+  - text: "No self-finance seats are offered at Air University."
+
+  utter_domicile:
+  - text: "Domicile is not needed at the time of test."
+
+  utter_aggregate:
+  - text: "It depends on current year and campus aggregate. Some previous year aggregates of Islamabad campus are provided at link: https://www.etestandadmission.pk/2019/07/closing-aggregates-of-air-university.html"
+
+  utter_period:
+  - text: "Academic period starts from September and Ends in June (Excluding Summer semester). Detailed schedule is available at: https://au.edu.pk/Pages/AUInfo/download/Academic_Calendar_2022_23.pdf"
+
+  utter_Warning:
+  - text: " CGPA below 2 results in increment in warning counts. 3 consective warning counts will result in cancellation of admission."
+
+  utter_fyp:
+  - text: "Final Year Project (FYP) is offered in the third last regular semester. It spans over two semesters (FYP-I FYP-II FYP-II). A student must have passed all courses shown in the study plan of the degree program (up to the third last semester) and his warning count must be zero to register for FYP-I. Concession of 2 courses will be granted as per request. Minimum credit hours required are 92 for fyp registration."
+
+  utter_Transfer:
+  - text: "Any student with credits earned at other institution(s), under formally accredited programs, aspiring for admission into a degree program at AU, has to qualify the merit so determined by the admission test for that year for the respective degree program."
+
+  utter_gpaw:
+  - text: "W means withdraw. courses which are withdrawn before final exams will be marked W in transcript and it doesn't affect gpa in any case."
+
+  utter_gpai:
+  - text: "I means awaiting grade. Grades that are not yet updated are marked I."
+
+  utter_gpa:
+  - text: "CGPA is calculated as the weighted average for all semesters cumulatively using grade points of all the courses taken by a student."
+
+  utter_credit:
+  - text: "One credit hour means teaching a theory course for one classroom-teaching hour each week throughout the semester."
+
+  utter_class:
+  - text: " Duration of classes is usually 50 minutes (3 classes/week) for core courses and 1.5 hour (2 classes/week) for electives."
+
+  utter_former:
+  - text: "A former student of the university seeking readmission in an undergraduate program can do so by taking the relevant admission test. After qualifying for the admission on merit, the student is admitted as a NEW student."
+
+  utter_awaited:
+  - text: "A new admission is closed if an awaited result does not meet the eligibility criteria of a particular degree program."
+
+  utter_semester:
+  - text: "A semester comprises of 16 weeks including Mid terms and excluding final exams."
+
+  utter_campus:
+  - text: "Yes, Students are allowed to register course in any campus of AU."
+
+  utter_sum:
+  - text: "A student can withdraw from a summer course on or before the last day of classes."
+
+  utter_summer_courses:
+  - text: "A student can register 2 old courses at max."
+
+  utter_new:
+  - text: "A student cannot register for a new course. Exception to this rule is granted when an elective course is being offered by a distinguished scholar or professional who is only available during summer."
+
+  utter_improve:
+  - text: "A student may repeat any course to improve CGPA."
+
+  utter_freezing:
+  - text: "A student may request freezing of his/her admission for up to 2 semesters along with prescribed Semester Freeze charges."
+
+  utter_Rechecking:
+  - text: "A student who has not viewed his final exam paper in the scheduled paper viewing session may also request rechecking of the final examination to their instructors."
+
+  utter_degree:
+  - text: "A student's admission will be cancelled automatically after completion of maximum duration (7 years) allowed to earn a degree unless extension is approved by competent authority."
+
+  utter_spring:
+  - text: "Yes Air University offer spring admissions."
+
+  utter_AU:
+  - text: "Air University is the best university for Electrical and Computer Engineering in Pakistan. The Air University (AU) is a federally chartered public sector research university in Pakistan. Established in 2002, its main campus is located in the capital city of Islamabad, Pakistan. The university has two other functional campuses, Aerospace and Aviation Campus at Kamra and a campus at Multan. The university offers undergraduate and post-graduate degrees in artificial intelligence, business management, computer science, cyber security, engineering, medicine, and humanities.It is ranked among the country's top ten universities in the Engineering and Technology category by the Higher Education Commission. Air University is recognized by Higher Education Commission (Pakistan) and accredited by the Pakistan Engineering Council and Pakistan Medical Commission. It is a member of Association of Commonwealth Universities of the United Kingdom and International Association of Universities."
+  - text: "The Air University (AU) is a federally chartered public sector research university in Pakistan. Established in 2002, its main campus is located in the capital city of Islamabad, Pakistan. The university has two other functional campuses, Aerospace and Aviation Campus at Kamra and a campus at Multan. The university offers undergraduate and post-graduate degrees in artificial intelligence, business management, computer science, cyber security, engineering, medicine, and humanities.It is ranked among the country's top ten universities in the Engineering and Technology category by the Higher Education Commission. Air University is recognized by Higher Education Commission (Pakistan) and accredited by the Pakistan Engineering Council and Pakistan Medical Commission. It is a member of Association of Commonwealth Universities of the United Kingdom and International Association of Universities."
+
+  utter_withdraw:
+  - text: "Application for withdrawal from a course must be countersigned by the parent or the guardian of the student. Request for withdrawal must be approved by the HoD."
+
+  utter_job:
+  - text: "Job rate of Air University is almost 100%"
+
+  utter_medal:
+  - text: "Eligibility for the medals and certificate is as follows:  a) Student must have passed the prescribed course load (for his/her batch) in that semester  b) Student must not have failed, repeated or withdrawn from a course in that semester c) Position is determined by the GPA earned in that semester. d) Student must have earned GPA of 3.00 or higher in that semester."
+
+  utter_events:
+  - text: "Air University hosts an annual Olympiad, named Air Nexus in the spring semester of every year. The objective of this event is to provide an opportunity to the students of Pakistan to develop communal skills and sportsman spirit. The mega event caters multiple domains of Sports, Programming, E-Gaming, Performing Arts, Culture, Literary, Engineering and Media."
+
+  utter_career:
+  - text: "Career service office is Present in Air University"
+
+  utter_deen:
+  - text: "Mr. AIR MARSHAL JAVAID AHMED, HI(M) (Retd) is the Vice chancellor of university"
+
+  utter_headquarter:
+  - text: "Service Road E-9 / E-8, Islamabad, Pakistan, E-9, Islamabad, Islamabad Capital Territory 44000 Pakistan"
+
+  utter_Kamra:
+  - text: "Air University Aerospace & Aviation Campus 6 KM Off GT-Road Hattian Aviation City (FHS) Kamra Attock. AU FAX, Punjab Pakistan"
+
+  utter_Mul:
+  - text: "XG94+FCR, Multan, Punjab"
+
+  utter_pesh:
+  - text: "Main campus is located in the capital city of Islamabad, Pakistan. The university has two other functional campuses at Kamra and a campus at Multan."
+
+  utter_fsd:
+  - text: "Main campus is located in the capital city of Islamabad, Pakistan. The university has two other functional campuses at Kamra and a campus at Multan."
+
+  utter_library:
+  - text: "Library facility is available in every campus"
+
+  utter_cafeteria:
+  - text: "Cafeteria facility is available in every campus"
+
+  utter_mosque:
+  - text: "Mosque facility is available in every campus"
+
+  utter_auditorium:
+  - text: "Every campus has its own Auditorium"
+
+  utter_bestcampus:
+  - text: "Every campus is good at its own. In terms of merit Islamabad has high merit."
+
+  utter_academic:
+  - text: "Academic office is situated at LTC Block"
+
+  utter_admin:
+  - text: "You can visit Admin office in LTC Block"
+
+  utter_students:
+  - text: "Student's affair department is located in Cafe floorn 1st"
+
+  utter_hod:
+  - text: "Every Department has its respective HOD. You can meet them through open door policy in their office hours."
+
+  utter_director:
+  - text: "Director office is at ground floor Room#01"
+
+  utter_contacts:
+  - text: "You can contact Air University at (051) 9262557"
+
+  utter_isb:
+  - text: "Air University islamabad is located at:  Service Road E-9 / E-8, Islamabad, Pakistan, E-9, Islamabad, Islamabad Capital Territory 44000"
+
+  utter_graduate:
+  - text: "Maximum period allowed for graduation is 7 years with 130 credit hours for bachelors degree"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
