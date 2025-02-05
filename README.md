@@ -1,10 +1,11 @@
+
 # Rasa Chatbot for University Admission Assistance
 
 [![Rasa](https://img.shields.io/badge/Rasa-3.x-purple.svg?style=flat&logo=rasa)](https://rasa.com)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat&logo=python)](https://www.python.org)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Introduction
+## Introduction 🎓
 This project is a Rasa-powered chatbot designed to assist students with university admission-related queries. The chatbot provides:
 - Automated responses for frequently asked admission-related questions.
 - Guidance on admission deadlines, required documents, and eligibility criteria.
@@ -15,7 +16,7 @@ This project is a Rasa-powered chatbot designed to assist students with universi
 - Natural Language Processing (NLP) capabilities to understand and respond intelligently to user queries.
 - Extensible architecture allowing for further enhancements, such as voice-based interaction and multilingual support.
 
-## Project Overview
+## Project Overview 🗂️
 The chatbot is built using Rasa, an open-source machine learning framework for building AI-based conversational applications. It leverages:
 - **Rasa NLU** for intent classification and entity extraction.
 - **Rasa Core** for managing conversation flow through machine learning models.
@@ -25,7 +26,7 @@ The chatbot is built using Rasa, an open-source machine learning framework for b
 
 This project is particularly useful for universities and educational institutions aiming to automate and enhance their admission inquiry process.
 
-## Project Report and Plagiarism Proof
+## Project Report and Plagiarism Proof 📄
 
 The **FYP_III Report.pdf** located in the folder `Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/` contains the final project documentation. This report provides a **comprehensive overview** of the chatbot system, covering all aspects of design, development, and evaluation. Additionally, it has been verified to maintain a plagiarism level below **10%**, ensuring originality and adherence to academic integrity standards.
 
@@ -39,15 +40,15 @@ The **FYP_III Report.pdf** located in the folder `Rasa-Chatbot-for-University-Ad
 - **Deployment Strategy**: Hosting, scalability, and integration into university systems.
 - **Plagiarism Proof**: Ensuring originality with compliance below 10%.
 
-### Screenshots
+### Screenshots 📸
 
-To provide visual evidence of the chatbot's functionality and interface, relevant screenshots have been included in the `screenshosts` folder:  
-`Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/screenshosts/`.  
+To provide visual evidence of the chatbot's functionality and interface, relevant screenshots have been included in the `screenshots` folder:  
+`Rasa-Chatbot-for-University-Admission-Assistance/Project Report with 10% Plagiarism Proof/screenshots/`.  
 These images demonstrate key features such as chatbot interactions, response accuracy, and system performance.
 
 By maintaining structured documentation and plagiarism compliance, this project ensures transparency and credibility in its development process.
 
-## Installation
+## Installation ⚙️
 To set up the chatbot, install the necessary dependencies:
 ```bash
 pip install rasa
@@ -55,13 +56,13 @@ pip install tensorflow
 pip install --upgrade tensorflow
 ```
 
-## Training the Chatbot
+## Training the Chatbot 🧑‍💻
 Train the Rasa model using:
 ```bash
 rasa train
 ```
 
-## Running the Chatbot
+## Running the Chatbot 🏃‍♂️
 To start the chatbot in the terminal, use:
 ```bash
 rasa shell
@@ -79,7 +80,7 @@ Then, configure your Facebook and Slack channels accordingly.
 
 
 
-## Integration with Facebook and Slack
+## Integration with Facebook and Slack 🌐
 To integrate the chatbot with Facebook Messenger and Slack, follow these steps:
 
 ### Facebook Messenger Integration
@@ -130,10 +131,10 @@ To integrate the chatbot with Facebook Messenger and Slack, follow these steps:
    ngrok http 5005
    ```
 
-## Recommended YouTube Tutorials
+## Recommended YouTube Tutorials 🎥
 For visual guidance, check out these tutorials:
 - **Facebook Messenger Integration:** [Watch Here](https://youtu.be/fRMyDIr1Pns?si=KVg00UtgDAWfB-l1)
 - **Slack Integration:** [Watch Here](https://youtu.be/YsOcE8pCXsk?si=hUolsNrQZBCra-xj)
 
-## License
+## License 📜
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
