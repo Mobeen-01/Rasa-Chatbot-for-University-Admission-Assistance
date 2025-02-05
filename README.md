@@ -61,33 +61,23 @@ Train the Rasa model using:
 rasa train
 ```
 
-# Running the Chatbot
-
-## Start the Chatbot
+## Running the Chatbot
 To start the chatbot in the terminal, use:
-
 ```bash
 rasa shell
 ```
 
-## Run the Chatbot with ngrok for Facebook and Slack Integration
-To run the chatbot and expose it via ngrok:
-
-Start the chatbot:
+To run the chatbot and expose it via ngrok for integration with Facebook and Slack:
 ```bash
 rasa run
-```
-
-Open a separate terminal and run:
-```bash
 ngrok http 5005
 ```
-
-### Download ngrok
 Make sure ngrok is installed. You can download it for Windows from the following link:
-[Download ngrok for Windows](https://ngrok.com/downloads/windows?tab=download)
+[Download ngrok for Windows](https://ngrok.com/download)
 
 Then, configure your Facebook and Slack channels accordingly.
+
+
 
 ## Integration with Facebook and Slack
 To integrate the chatbot with Facebook Messenger and Slack, follow these steps:
