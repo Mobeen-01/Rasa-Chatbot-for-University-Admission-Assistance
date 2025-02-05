@@ -11,6 +11,19 @@ This project is a Rasa-powered chatbot designed to assist students with universi
 - Information on available programs, scholarships, and financial aid.
 - Integration with Facebook Messenger and Slack for real-time support.
 - Reduced workload for university admission offices by handling routine queries efficiently.
+- AI-based conversational flow to improve student engagement and query resolution.
+- Natural Language Processing (NLP) capabilities to understand and respond intelligently to user queries.
+- Extensible architecture allowing for further enhancements, such as voice-based interaction and multilingual support.
+
+## Project Overview
+The chatbot is built using Rasa, an open-source machine learning framework for building AI-based conversational applications. It leverages:
+- **Rasa NLU** for intent classification and entity extraction.
+- **Rasa Core** for managing conversation flow through machine learning models.
+- **Custom Actions** to fetch real-time admission details from databases or APIs.
+- **Webhooks** for integrating with third-party applications like Facebook Messenger and Slack.
+- **Training Data** enriched with real-world admission-related queries to improve response accuracy.
+
+This project is particularly useful for universities and educational institutions aiming to automate and enhance their admission inquiry process.
 
 ## Installation
 To set up the chatbot, install the necessary dependencies:
