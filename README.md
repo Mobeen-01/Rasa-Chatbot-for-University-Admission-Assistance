@@ -92,8 +92,8 @@ To integrate the chatbot with Facebook Messenger and Slack, follow these steps:
 
 ## Recommended YouTube Tutorials
 For visual guidance, check out these tutorials:
-- **Facebook Messenger Integration:** [Watch Here](https://www.youtube.com/watch?v=AYMJAPzdoYg)
-- **Slack Integration:** [Watch Here](https://www.youtube.com/watch?v=qNpZHak6Ik8)
+- **Facebook Messenger Integration:** [Watch Here](https://youtu.be/fRMyDIr1Pns?si=KVg00UtgDAWfB-l1)
+- **Slack Integration:** [Watch Here](https://youtu.be/YsOcE8pCXsk?si=hUolsNrQZBCra-xj)
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
